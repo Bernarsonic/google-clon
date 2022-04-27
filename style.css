@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+html {
+    background-color: #202124;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+.header{
+    display: flex;
+    width: 100wh;
+    align-items: center;
+    padding: 1rem;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 100%;
+    align-items: center;
+}
+
+.nav-izquierdo {
+    display: flex;
+    color: #BDC1C6;
+    gap: 2rem;    
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-derecho {
+    display: flex;
+    color: #F1FFF1;
+    gap: 2rem;
+    align-items: center;
+}
+
+.perfil {
+    border-radius: 50%;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    width: 100%;
+}
+
+.google {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    color: #F1FFF1;
+}
+
+.google-buscador {
+    position: relative;    
+}
+
+.lupa {
+    position: absolute;
+    top: 13px;
+    left: 1rem;
+    color: #9aa0a6;
+    font-size: 13px;
+    vertical-align: middle;
+}
+
+.buscador {
+    border: 1px solid #5f6368;
+    border-color:#65696D;
+    width: 550px;
+    border-radius: 20px;
+    background-color: #202124;
+    height: 40px;
+    outline: none;
+    color: white;
+    padding: 0 3rem;
+}
+
+.buscador:hover {
+    border: 1px solid transparent;
+    background-color: #303134;
+    box-shadow: 0 1px 6px 0 #171717;
+}
+
+.boton {
+    display: flex;
+    gap: 1rem;
+}
+
+.botones {
+    background-color:#303134;
+    color: #F1FFF1;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    height: 35px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.botones:hover {
+    border: 1px solid #65696D;
+}
+
+.footer {
+    background-color:#171717;
+    position:relative;
+    color: #BDC1C6;
+}
+
+.footer-arriba {
+    padding: 15px;
+    margin-left: 15px;
+}
+
+.footer-bajo {
+    display: flex;
+    justify-content: space-between;
+    border-top: #202124 2px solid;
+    padding: 15px;
+}
+
+.footer-bajo-izquierdo {
+    display: flex;
+    gap: 1rem;
+    padding: 15px;
+}
+
+.footer-bajo-mediano {
+    display: flex;
+    padding: 15px;
+    gap: 10px;
+}
+
+.footer-bajo-derecha {
+    display: flex;
+    gap: 1rem;
+    padding: 15px;
+}
